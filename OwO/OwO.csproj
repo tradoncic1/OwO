@@ -90,16 +90,23 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="bin\Debug\cute-anime-girl.jpg" />
+    <None Include="Resources\cute-anime-girl.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Vaporwave1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="bin\Debug\abstract-blur-light-gradient-purple-and-green-soft-pastel-color-wallpaper-background_7636-136.jpg" />
+    <None Include="Resources\abstract-blur-light-gradient-purple-and-green-soft-pastel-color-wallpaper-background_7636-136.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="bin\Debug\large.jpg" />
+    <None Include="Resources\large.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\kawaii.txt" />
+    <Content Include="Resources\search.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
